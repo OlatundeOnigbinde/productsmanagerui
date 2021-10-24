@@ -1,0 +1,26 @@
+/*@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap");*/
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.movie-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../../assets/poster.png");
+  min-height: 87vh;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.airline {
+  background-image: url("../../assets/grey_bg.jpg");
+  background-color: rgba(54, 54, 54, 0.6);
+  background-blend-mode: saturation;
+  background-size: cover;
+}
+
+#content {
+  min-height: 75vh;
+}
+
+/*# sourceMappingURL=app.css.map */

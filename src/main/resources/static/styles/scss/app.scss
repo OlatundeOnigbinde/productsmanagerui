@@ -1,0 +1,24 @@
+@import "./variables";
+.movie-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../../assets/poster.png");
+  min-height: 87vh;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.airline {
+  background-image: url("../../assets/grey_bg.jpg");
+  background-color: rgba(#363636, 0.6);
+  background-blend-mode: saturation;
+  background-size: cover;
+}
+
+#content {
+  min-height: 75vh;
+}
+
+// .formcont {
+//   background-color: rgba(245, 245, 245, 0.6);
+// }

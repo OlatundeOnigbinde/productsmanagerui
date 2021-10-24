@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: product-manager-ui
+        mvc:
+            view:
+                suffix:.html
+backend:
+    port: 8082
+server:
+    port: 8081
+    
+session:
+    idle-duration-minutes: 5
+app:
+    backend:
+        service:
+            url:http://localhost:${backend.port}
